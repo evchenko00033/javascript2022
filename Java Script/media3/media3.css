@@ -1,0 +1,127 @@
+.father {
+    margin: 0 auto;
+    width: 800px;
+    height: 900px;
+
+
+}
+
+.grandbox {
+    height: 800px;
+    display: flex;
+}
+
+
+.one, .two, .three, .four, .five, .six, .seven {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #696666;
+    font-size: 50px;
+
+
+}
+
+.one {
+    width: 790px;
+    height: 50px;
+
+
+}
+
+.two {
+    width: 150px;
+    height: 770px;
+
+
+}
+
+.box {
+    width: 650px;
+    height: 750px;
+
+
+}
+
+.three {
+    height: 150px;
+
+}
+
+.four {
+
+    height: 100px;
+}
+
+.minibox {
+    display: flex;
+    height: 400px;
+    width: 650px;
+
+
+}
+
+.five {
+    width: 500px;
+
+
+}
+
+.six {
+
+    width: 150px;
+}
+
+.seven {
+    height: 100px;
+
+
+}
+
+@media screen and (max-width: 1200px) {
+    .father {
+        width: 650px;
+        height: 950px;
+    }
+
+    .grandbox {
+        position: relative;
+    }
+
+    .one {
+        width: 640px;
+    }
+
+    .two {
+        position: absolute;
+        margin-left: -80px;
+        margin-top: -60px;
+        height: 250px;
+        width: 70px;
+        border: 10px dotted silver;
+    }
+
+    .four {
+        height: 200px;
+
+
+    }
+
+    .five {
+        height: 300px;
+        width: auto;
+
+    }
+
+    .six {
+        height: 90px;
+        width: auto;
+    }
+
+    .minibox {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+

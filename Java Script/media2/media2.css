@@ -1,0 +1,103 @@
+.father {
+    margin: 0 auto;
+    border: 5px solid #5d5b5b;
+    height: 600px;
+    width: 1000px;
+    border-radius: 20px;
+}
+
+.a {
+    margin: 0 auto;
+    height: 33%;
+    width: 99%;
+    margin-top: 5.5px;
+}
+
+
+.box {
+    margin: 0 auto;
+    height: 63%;
+    width: 99%;
+    margin-top: 5.5px;
+    display: flex;
+
+}
+
+.minibox {
+    margin: 0 auto;
+    height: 99%;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+.b {
+    height: 49%;
+    width: 99%;
+
+
+}
+
+.cde {
+    height: 49%;
+    width: 99%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.c, .d, .e {
+    height: 97%;
+    width: 32%;
+
+}
+
+.f {
+    margin: 0 auto;
+    height: 99%;
+    width: 25%;
+
+
+}
+
+.a, .b, .c, .d, .e, .f {
+    background: silver;
+    border: 2px solid #5d5959;
+    border-radius: 20px;
+    color: #5d5959;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+@media screen and (min-width: 1100px) {
+    .father {
+        height: 1500px;
+    }
+
+    .a, .f {
+        height: 15%;
+    }
+
+
+    .box {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+
+    }
+
+    .minibox, .f {
+        width: 99%;
+
+    }
+
+}
