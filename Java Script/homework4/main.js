@@ -11,7 +11,7 @@
 // for (і = 0; і < 10; і++) {
 //     document.write( `<div>Text ${і}</div>`);
 // }
-
+//
 // let i = 0;
 // while (i<20) {
 //     document.write(`<h1>Text</h1>`);
@@ -44,6 +44,23 @@
 //
 // замість 'ITEM OF ARRAY' підставити елемент з масиву щоб получився цілий список з даними з масиву
 //
+
+let listOfItems = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'angular', 'node.js'];
+
+for (let listOfItem of listOfItems) {
+    document.write(`<div>
+ <h2>
+ `listOfItem`
+ </h2>
+ </div>`)}
+
+
+
+
+
+
+
+
 // -----------------------------------------------
 // let listOfItems = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'angular', 'node.js'];
 // document.write(`<ul>`);
