@@ -1,16 +1,43 @@
 // - створити функцію яка обчислює та повертає площу прямокутника зі сторонами а і б
 
-function sides(a, b) {
-    let area = a * b;
-    return area;
-}
-// let x = sides (5, 4);
-// console.log(x);
+
+// function sides(a,b) {
+//     return a * b;
+// }
+// console.log(sides(4, 9));
+
+// function sizes(a, b) {
+//     let area = a * b;
+//     return area;
 //
-console.log(sides(5,6));
+// }
+//
+// let x = sizes(100, 5);
+// console.log(x);
+
+
+
+
+
+// ???????????????????
+// function whriter(a, b) {
+//     console.log(a * b);
+// }
+//
+// whriter(5, 5);
+//
+// function whriters(a, b) {
+//     return a * b;
+//
+// }
+// console.log(whriters(6, 6));
+
+// ???????????????????
+
 
 
 // - створити функцію яка обчислює та повертає площу кола з радіусом r
+
 
 // function sides(pi, r) {
 //     let area = pi * r * r;
@@ -33,12 +60,33 @@ console.log(sides(5,6));
 
 // - створити функцію яка приймає масив та виводить кожен його елемент
 
+// !!!!!!!!!!!!!!!
+// let arrey = [1, 5, `sdfgfg`, true, false,];
+//
+// function foo(universal) {
+//     console.log(universal);
+//
+// }
+//
+// foo(arrey);
+// !!!!!!!!!!!!!!!
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 
 // - створити функцію яка створює параграф з текстом. Текст задати через аргумент
+
 // function p(argument) {
 //     document.write(`<p>${argument}</p>`)
 //
@@ -46,7 +94,8 @@ console.log(sides(5,6));
 //
 // p(`Hello`);
 
-// - створити функцію яка створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий
+// - створити функцію яка створює ul з трьома елементами li.
+// Текст li задати через аргумент всім однаковий
 
 // function li (argument) {
 //     document.write(`<ul>
@@ -61,6 +110,28 @@ console.log(sides(5,6));
 
 // - створити функцію яка створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий.
 // Кількість li визначається другим аргументом, який є числовим (тут використовувати цикл)
+
+// function li(universal, number) {
+//     document.write(`<ul>`);
+//     for (let i = 1; i < number+1; i++) {
+//         document.write(`<li>${universal} ${i}</li>`);
+//     }
+//     document.write(`</ul>`);
+// }
+//
+// li(`Hello`, 5);
+
+
+
+// function liNamber(universal, namber) {
+//     document.write(`<ul>`)
+//     for (let i = 1; i < namber+1; i++) {
+//      document.write(`<li>${universal}   ${i}</li>`)
+//     }
+//     document.write(`</ul>`)
+// }
+//
+// liNamber(`Hello`, 5);
 
 
 
@@ -80,7 +151,18 @@ console.log(sides(5,6));
 
 
 
-// - створити функцію яка приймає масив примітивних елементів (числа,стрінги,булеві), та будує для них список
+// - створити функцію яка приймає масив примітивних елементів (числа,стрінги,булеві),
+// та будує для них список
+
+// let x = [5, 9, `asdfa`, true,];
+//
+// function array(universal) {
+    // for (i = 0; i < universal.length; i++) {
+    //
+    // }
+
+
+
 // - створити функцію яка приймає масив об'єктів з наступними полями id,name,age , та виводить їх в документ.
 // Для кожного об'єкту окремий блок.
 // - створити функцію яка повертає найменьше число з масиву
@@ -354,3 +436,28 @@ console.log(sides(5,6));
 // console.log(users[3]);
 // users[3].dryzhina = {navr:`asdffdsa`};
 // console.log(users[3]);
+
+
+
+let users = [
+    {name: 'vasya', age: 31, status: false},
+    {name: 'petya', age: 30, status: true},
+    {name: 'kolya', age: 29, status: true},
+    {name: 'olya', age: 28, status: false},
+    {name: 'max', age: 30, status: true},
+    {name: 'anya', age: 31, status: false},
+    {name: 'oleg', age: 28, status: false},
+    {name: 'andrey', age: 29, status: true},
+    {name: 'masha', age: 30, status: true},
+    {name: 'olya', age: 31, status: false},
+    {name: 'max', age: 31, status: true, surname: 'ausfyqf'},
+];
+for (let i = 0; i < users.length; i++) {
+    let user = users[i];
+    document.write(`<div>${user.name} ---${user.status} ---- ${user.age}</div>`);
+}
+for (let user of users) {
+    document.write(`<div>${user.name} ${user.age} ${user.status}</div>`);
+    // console.log(user.name,user.age);
+
+}

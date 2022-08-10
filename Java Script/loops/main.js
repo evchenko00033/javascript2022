@@ -32,10 +32,12 @@ let users = [
 // console.log(users);
 
 // Звертаємось до кожного ключа з присвоєнням індексу змінну
-// for (let i = 0; i < users.length - 1; i++) {
-//     let user = users[i];
-//     document.write(`<div>${user.name}---${users[i].status}</div>`);
-// }
+for (let i = 0; i < users.length - 1; i++) {
+    // let user = users[i];
+    // document.write(`<div>${user.name}---${users[i].status}</div>`);
+
+    document.write(`<div>${users[i].age}</div>`);
+}
 //                                             Звертаємось до кожного ключа ,без додаткової змінної
 // for (let i = 1; i < users.length-1; i++) {
 //
