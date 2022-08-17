@@ -2,7 +2,13 @@
 //     Якщо змінна x не дорівнює нулю, виведіть 'Вірно',
 //     інакше виведіть 'Невірно'.
 //     Перевірте  скрипт при a, що дорівнює 1, 0, -3
-
+// let a = 7;
+// let x = +prompt(`Enter number`);
+// if (x !== a) {
+//     console.log(`Вірно`);
+// } else {
+//     console.log(`Невірно`);
+// }
 
 // let x = +prompt(`Enter number`);
 //     if (x !== 0) {
@@ -13,6 +19,25 @@
 
 // - Дано змінну time яка рівна числу від 0 до 59. Потрібно написати код, який перевірить, до якої четверті години попадає число
 // (в першу, другу, третю или четверту частину години).
+// let time = prompt(`Введи цифру`);
+
+
+
+
+// if (time >= 0 && time < 15) {
+//     console.log(`перша чверть`);
+// }
+// else if (time >= 15 && time < 30) {
+//     console.log(`друга чверть`);
+// }
+// else if (time >= 30 && time < 45) {
+//     console.log(`третя чверть`);
+// }
+// else if (time >= 45 && time < 60) {
+//     console.log(`четверта чверть`);
+// } else {
+//     console.log(`не балуйся`);
+// }
 
 // let time = +prompt('What time is it?');
 // if (time >0 && time<=15) {
@@ -41,6 +66,8 @@
 // це число (у першу, другу чи третю).
 
 
+
+
 // let day = +prompt('Enter a number from 1 to 31');
 // if (day >= 1 && day <= 10) {
 //     console.log('Hhe first decade');
@@ -60,6 +87,40 @@
 // Користувач вводить порядковий номер дня тижня і
 // на екрані відображається інфа що заплановано на цей день
 // (можна замість плану на день, назву дня англійською).
+
+// let i = prompt(`День тижня`);
+//
+// if (i === `понеділок`) {
+//     console.log(`уроки`);
+// }else if (i ===`вівторок`) {
+//     console.log(`музика`);
+// }else if (i ===`середа`) {
+//     console.log(`сопілка`);
+// }else if (i ===`четверг`) {
+//     console.log(`відпочинок`);
+// }else if (i === `пятниця`) {
+//     console.log(`спорт`);
+// } else {
+//     console.log(`спробуй ще раз`);
+// }
+// switch (i) {
+//     case `понеділок`:
+//         `уроки`
+//         console.log(`уроки`);
+//         break;
+//     case `вівторок`:
+//         console.log(`заняття`);
+//         break;
+//     case `середа`:
+//         console.log(`спорт`);
+//         break;
+//     case `четверг`:
+//         console.log(`музика`);
+//         break;
+//     default:
+//         console.log(`не балуйся`);
+// }
+
 
 
 // let weekday = +prompt(`Enter your day`);
@@ -119,6 +180,14 @@
 //         Потрібно знайти та вивести максимальне число з тих двох .
 //         Також потрібно врахувати коли введені рівні числа.
 
+
+
+
+
+
+
+
+
 // let a = +prompt('Enter the first number');
 // let b = +prompt('Enter the second number');
 // if (a > b) {
@@ -132,7 +201,7 @@
 // }
 // else {
 //     console.log('Don`t do stupid things!!!');
-// }
+}
 // чОМУ КОЛИ Я ВВОЖУ 0 І ШИФТ ПИШЕ =Don`t do stupid things!!!???
 
 

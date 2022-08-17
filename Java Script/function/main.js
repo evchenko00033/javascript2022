@@ -19,6 +19,11 @@ let users = [
     {name: 'olya', age: 31, status: false},
     {name: 'max', age: 31, status: true}
 ];
+
+
+
+
+// users.forEach(value => console.log(value));
 // console.log(users);
 
 // for (let user of users) {
@@ -36,16 +41,13 @@ let users = [
 // function x(text) {
 //     console.log(text);
 // }
-function x(array) {
-    for (let arrayElement of array) {
-        console.log(arrayElement);
-    }
-}
-
-x(users)
-
-
-
+// function x(array) {
+//     for (let arrayElement of array) {
+//         console.log(arrayElement);
+//     }
+// }
+//
+// x(users)
 
 
 
